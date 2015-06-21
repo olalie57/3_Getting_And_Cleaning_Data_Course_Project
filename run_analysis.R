@@ -8,8 +8,8 @@
 
 ## 1. Merges the training and the test sets to create one data set.
 
-    ## Remember to set working directory
-    setwd("C:\\Users\\olalie\\Documents\\DataScience\\3_Getting_And_Cleaning_Data\\3_Getting_And_Cleaning_Data_Course_Project")
+    ## Remember to set your working directory
+    ## setwd("C:\\Users\\olalie\\Documents\\DataScience\\3_Getting_And_Cleaning_Data\\3_Getting_And_Cleaning_Data_Course_Project")
     
     ## First, get the raw data:
     
