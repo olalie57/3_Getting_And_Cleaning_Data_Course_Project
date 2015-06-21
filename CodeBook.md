@@ -1,9 +1,9 @@
 Code Book for Course Project
-=============================================================
+============================
 
 **activity**
 
-- *Values*: [walking, walkingUpstairs, walkingDownstailrs, sitting, standing, laying]
+- *Values*: [walking, walkingUpstairs, walkingDownstairs, sitting, standing, laying]
     
 - *Description*: Activity performed by the subject
 	
@@ -13,22 +13,14 @@ Code Book for Course Project
 	
 - *Description*: Subject identifier to mark which volunteer performed the recorded activity, number 1 through 30  
 	
-### Variables
+**other variables**
 
-***Note:*** *Because the variables included here (with the exception of `activity` and `subject) are normalized, the variables do not have any units and have ranges from -1 to 1.*
+***Note:*** *This data set contains a subset of the original variables which are described in the folder __UCI HAR Dataset__. The selected variables are given new names according to the table below, and observations have been summarized to the mean  grouped by activity and subject. These variables are normalized and bounded within [-1,1].*
 
 <table width="100%" border="1">
   <tr bgcolor="#CCFFFF">
     <th>New name</th>
     <th>Original name</th>
-  </tr>
-  <tr>
-    <td>activity</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td>subject</td>
-    <td>&nbsp;</td>
   </tr>
   <tr>
     <td>timeBodyAccelerationMeanX</td>
